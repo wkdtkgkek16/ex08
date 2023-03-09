@@ -1,0 +1,112 @@
+.App {
+  width: 80%;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  background-color: rgb(245, 245, 245);
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+.footer h3 {
+  text-align: center;
+}
+
+footer {
+  border-top: 3px solid gray;
+  margin-top: 100px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+  border: 1px solid gray;
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+.ellipsis {
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: -webkit-box; 
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+ }
+
+ .product .title {
+  font-size: 0.9rem;
+ }
+
+ input {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'jua';
+  margin-left: 10px;
+ }
+
+ button {
+  font-family: 'jua';
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px;
+  cursor: pointer;
+ }
+
+ .price {
+  text-align: right;
+  margin: 10px;
+ }
+
+ a {
+  text-decoration: none;
+  color:rgb(117, 117, 117);
+ }
+
+ a :hover {
+  color: blue;
+ }
+
+ .cart {
+  text-align: right;
+ }
+
+ table {
+  width: 100%;
+  margin: 0px auto;
+  border-collapse: collapse;
+
+ }
+ 
+ td {
+  border-bottom: 1px solid gray;
+  padding: 5px 10px;
+ }
+
+ thead {
+  text-align: center;
+ }

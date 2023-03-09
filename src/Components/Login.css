@@ -1,0 +1,10 @@
+.login input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login {
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+}

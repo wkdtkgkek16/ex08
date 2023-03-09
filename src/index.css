@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'jua';
+  src: url('./fonts/GowunDodum-Regular.ttf');
+}
+
+body {
+  font-family: 'jua';
+}
